@@ -1,60 +1,124 @@
-﻿<div class="row" ng-controller="app.controllers.views.home">
-    <div class="col-sm-3 col-md-2 sidebar">
-        <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview</a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
-        </ul>        
-    </div>
-    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-        <h1 class="page-header">Dashboard</h1>
-        <div class="row placeholders">
-            <div class="col-xs-6 col-sm-4 placeholder">
-                <div kendo-chart
-                     k-title="{ text: '1024x768 screen resolution trends for 2009', position: 'bottom' }"
-                     k-series-defaults="{ type: 'pie' }"
-                     k-series="[{
-                        field: 'value',
-                        categoryField: 'category'
-                        }]"
-                     k-data-source="screenResolution"
-                     k-series-hover="onSeriesHover">
-                </div>
+﻿<div class="content" ng-controller="app.controllers.views.home">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-5">
+                <div class="portlet">
+                    <h4 class="portlet-title">
+                        <u>Daily Stats</u>
+                    </h4>
+                    <div class="portlet-body">
 
-            </div>
-            <div class="col-xs-6 col-sm-4 placeholder">
-                <div kendo-chart
-                     k-title="{ text: '1024x768 screen resolution trends for 2009', position: 'bottom' }"
-                     k-series-defaults="{ type: 'pie' }"
-                     k-series="[{
-                        field: 'value',
-                        categoryField: 'category'
-                        }]"
-                     k-data-source="screenResolution"
-                     k-series-hover="onSeriesHover">
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-4 placeholder">
-                <div kendo-chart
-                     k-title="{ text: '1024x768 screen resolution trends for 2009', position: 'bottom' }"
-                     k-series-defaults="{ type: 'pie' }"
-                     k-series="[{
-                        field: 'value',
-                        categoryField: 'category'
-                        }]"
-                     k-data-source="screenResolution"
-                     k-series-hover="onSeriesHover">
-                </div>
-            </div>
-        </div>
-        <h2 class="sub-header">Section title</h2>
-        <div class="col-xs-6 col-sm-6 placeholder">
-            <kendo-grid options="mainGridOptions"></kendo-grid>
- 
-        </div>
-        <div class="col-xs-6 col-sm-6 placeholder">
-            <kendo-grid options="mainGridOptions"></kendo-grid>          
-        </div>
-    </div>
-</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, fugiat, dolores, laborum sit.</p>
+                        <hr>
+
+                        <table class="table keyvalue-table">
+                            <tbody>
+                                <tr>
+                                    <td class="kv-key"><i class="fa fa-dollar kv-icon kv-icon-primary"></i> Revenue</td>
+                                    <td class="kv-value">$5,367 </td>
+                                </tr>
+                                <tr>
+                                    <td class="kv-key"><i class="fa fa-gift kv-icon kv-icon-secondary"></i> Total Sales</td>
+                                    <td class="kv-value">473 </td>
+                                </tr>
+                                <tr>
+                                    <td class="kv-key"><i class="fa fa-exchange kv-icon kv-icon-tertiary"></i>Referrals</td>
+                                    <td class="kv-value">78</td>
+                                </tr>
+                                <tr>
+                                    <td class="kv-key"><i class="fa fa-envelope-o kv-icon kv-icon-default"></i> Inquiries</td>
+                                    <td class="kv-value">39 </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> <!-- /.portlet-body -->
+                </div> <!-- /.portlet -->
+
+            </div> <!-- /.col -->
+
+            <div class="col-md-3 col-sm-3">
+                <div class="portlet">
+                    <h4 class="portlet-title">
+                        <u>Activities</u>
+                    </h4>
+                        <div class="portlet-body">
+                            <div kendo-chart                                
+                                 k-series-defaults="{ type: 'pie' }"
+                                 k-series="[{
+                            field: 'value',
+                            categoryField: 'category'
+                            }]"
+                                 k-data-source="screenResolution"
+                                 k-series-hover="onSeriesHover">
+                            </div>
+                    </div> <!-- /.portlet-body -->
+                </div> <!-- /.portlet -->
+            </div> <!-- /.col -->
+
+            <div class="col-md-3 col-sm-3">
+                <div class="portlet">
+                    <h4 class="portlet-title">
+                        <u>Activities</u>
+                    </h4>
+                    <div class="portlet-body">
+                        <div kendo-chart                             
+                             k-series-defaults="{ type: 'pie' }"
+                             k-series="[{
+                            field: 'value',
+                            categoryField: 'category'
+                            }]"
+                             k-data-source="screenResolution"
+                             k-series-hover="onSeriesHover">
+                        </div>
+                    </div> <!-- /.portlet-body -->
+                </div> <!-- /.portlet -->
+            </div> <!-- /.col -->
+
+            <div class="col-md-3 col-sm-3">
+                <div class="portlet">
+                    <h4 class="portlet-title">
+                        <u>Activities</u>
+                    </h4>
+                    <div class="portlet-body">
+                        <div kendo-chart
+                             k-series-defaults="{ type: 'pie' }"
+                             k-series="[{
+                            field: 'value',
+                            categoryField: 'category'
+                            }]"
+                             k-data-source="screenResolution"
+                             k-series-hover="onSeriesHover">
+                        </div>
+                    </div> <!-- /.portlet-body -->
+                </div> <!-- /.portlet -->
+            </div> <!-- /.col -->
+        </div> <!-- /.row -->
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="portlet">
+                    <h4 class="portlet-title">
+                        <u>Latest Notifications Due</u>
+                    </h4>
+
+                    <div class="portlet-body">
+                        <kendo-grid options="mainGridOptions"></kendo-grid>
+                    </div> <!-- /.portlet-body -->
+
+                </div> <!-- /.portlet -->
+            </div> <!-- /.col -->
+            <div class="col-md-6">
+                <div class="portlet">
+                    <h4 class="portlet-title">
+                        <u>Latest Notifications Due</u>
+                    </h4>
+
+                    <div class="portlet-body">
+                        <kendo-grid options="mainGridOptions"></kendo-grid>
+                    </div> <!-- /.portlet-body -->
+
+                </div> <!-- /.portlet -->
+            </div> <!-- /.col -->
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+</div> <!-- .content -->

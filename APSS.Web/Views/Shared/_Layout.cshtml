@@ -12,25 +12,31 @@
     <link rel="shortcut icon" href="~/favicon.ico">
 
     <!-- Site title -->
-    <title>My ASP.NET Boilerplate Project!</title>
+    <title>Metis - APSS</title>
 
     <!-- Style for jQueryUI -->
     <link href="~/Content/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
 
+    <!-- Google Font: Open Sans -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300,700">
+
     <!-- Style for Bootstrap -->
     <link href="~/Content/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css">
+
     <!-- Style for APSS -->
-    <link href="~/Content/apss.css" rel="stylesheet">
+    <!-- App CSS -->
+    <link rel="stylesheet" href="~/Content/apss-admin.css">
+    <link rel="stylesheet" href="~/Content/apss-flat.css">
 
     <!-- Styles for jQuery plug-ins -->
     <link href="~/Content/toastr.min.css" rel="stylesheet" />
 
     <!-- Country flags -->
     <link href="~/Content/flags/famfamfam-flags.css" rel="stylesheet" />
-
-    <!-- Common styles for this application -->
-    <link href="~/App/Common/styles/main.css" rel="stylesheet" />
 
     <script type="text/javascript">
         //This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
@@ -79,8 +85,11 @@
 </head>
 
 <body>
-
-    @RenderBody()
-
+    <div id="wrapper">
+        @RenderBody()
+    </div>
+    <!-- App JS -->
+    <script src="~/Scripts/mvpready-core.js"></script>
+    <script src="~/Scripts/mvpready-admin.js"></script>
 </body>
 </html>

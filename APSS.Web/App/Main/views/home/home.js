@@ -11,23 +11,13 @@
 
             $scope.screenResolution = new kendo.data.DataSource({
                 data: [{
-                    category: "Asia",
-                    value: 53.8                    
+                    category: "Complete",
+                    value: 53.8,
+                    color: "#6685a4"
                 }, {
-                    category: "Europe",
-                    value: 16.1                    
-                }, {
-                    category: "Latin America",
-                    value: 11.3                  
-                }, {
-                    category: "Africa",
-                    value: 9.6                   
-                }, {
-                    category: "Middle East",
-                    value: 5.2                  
-                }, {
-                    category: "North America",
-                    value: 3.6                   
+                    category: "In Progress",
+                    value: 47.2,
+                    color: "#d74b4b"
                 }]
             });
 
