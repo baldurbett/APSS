@@ -193,6 +193,7 @@
     <Content Include="App\Main\views\layout\layout.js" />
     <Content Include="App\Main\views\home\home.js" />
     <Content Include="App\Main\views\about\about.js" />
+    <Content Include="Content\apss.css" />
     <Content Include="Content\bootstrap-cosmo.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />

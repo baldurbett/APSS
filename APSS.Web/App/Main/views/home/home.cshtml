@@ -1,36 +1,60 @@
-﻿<div ng-controller="app.controllers.views.home">
-    <h1>@L("WellcomeMessage")!</h1>
-    <p class="lead">@L("Home_ThisIsATemplate")</p>
-    <div class="row">
-        <div class="col-md-4">
-            <h3>ASP.NET MVC</h3>
-            <p>
-                @L("Home_AspNetDescription")
-            </p>
-            <a class="btn btn-primary btn-sm" href="http://asp.net/mvc">@L("LearnMore")..</a>
-        </div>
-        <div class="col-md-4">
-            <h3>ASP.NET Boilerplate</h3>
-            <p>
-                @L("Home_AspNetBoilerplateDescription")
-            </p>
-            <a class="btn btn-primary btn-sm" href="http://aspnetboilerplate.com">@L("LearnMore")..</a>
-        </div>
-        <div class="col-md-4">
-            <h3>KendoUI test</h3>
-            <p>
+﻿<div class="row" ng-controller="app.controllers.views.home">
+    <div class="col-sm-3 col-md-2 sidebar">
+        <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+        </ul>        
+    </div>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h1 class="page-header">Dashboard</h1>
+        <div class="row placeholders">
+            <div class="col-xs-6 col-sm-4 placeholder">
                 <div kendo-chart
                      k-title="{ text: '1024x768 screen resolution trends for 2009', position: 'bottom' }"
                      k-series-defaults="{ type: 'pie' }"
                      k-series="[{
-                                field: 'value',
-                                categoryField: 'category'
-                              }]"
+                        field: 'value',
+                        categoryField: 'category'
+                        }]"
                      k-data-source="screenResolution"
                      k-series-hover="onSeriesHover">
                 </div>
-            </p>
-            <a class="btn btn-primary btn-sm" href="http://angularjs.org/">@L("LearnMore")..</a>
+
+            </div>
+            <div class="col-xs-6 col-sm-4 placeholder">
+                <div kendo-chart
+                     k-title="{ text: '1024x768 screen resolution trends for 2009', position: 'bottom' }"
+                     k-series-defaults="{ type: 'pie' }"
+                     k-series="[{
+                        field: 'value',
+                        categoryField: 'category'
+                        }]"
+                     k-data-source="screenResolution"
+                     k-series-hover="onSeriesHover">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 placeholder">
+                <div kendo-chart
+                     k-title="{ text: '1024x768 screen resolution trends for 2009', position: 'bottom' }"
+                     k-series-defaults="{ type: 'pie' }"
+                     k-series="[{
+                        field: 'value',
+                        categoryField: 'category'
+                        }]"
+                     k-data-source="screenResolution"
+                     k-series-hover="onSeriesHover">
+                </div>
+            </div>
+        </div>
+        <h2 class="sub-header">Section title</h2>
+        <div class="col-xs-6 col-sm-6 placeholder">
+            <kendo-grid options="mainGridOptions"></kendo-grid>
+ 
+        </div>
+        <div class="col-xs-6 col-sm-6 placeholder">
+            <kendo-grid options="mainGridOptions"></kendo-grid>          
         </div>
     </div>
 </div>
