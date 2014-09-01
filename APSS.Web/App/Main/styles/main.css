@@ -1,7 +1,5 @@
 ﻿/* Application specific styles */
-body {
-  padding-top: 80px;
-}
+
 /* Angular transition animations */
 .shuffle-animation.ng-enter,
 .shuffle-animation.ng-leave {
