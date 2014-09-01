@@ -1,0 +1,104 @@
+DEBUG 2014-08-31 22:42:04,665 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-08-31 22:42:04,709 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:42:04,709 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:42:04,711 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.EntityFramework.AbpEntityFrameworkModule, Abp.Infrastructure.EntityFramework, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:42:04,717 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Web.AbpWebModule, Abp.Web, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:42:04,717 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:42:04,719 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:42:04,724 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSCoreModule, APSS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:42:04,724 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSApplicationModule, APSS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:42:04,725 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSDataModule, APSS.Infrastructure.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:42:04,726 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSWebApiModule, APSS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:42:04,726 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.Web.APSSWebModule, APSS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:42:05,059 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-08-31 22:51:05,895 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-08-31 22:51:06,298 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:51:06,299 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:51:06,300 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.EntityFramework.AbpEntityFrameworkModule, Abp.Infrastructure.EntityFramework, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:51:06,306 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Web.AbpWebModule, Abp.Web, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:51:06,306 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:51:06,308 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:51:06,313 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSCoreModule, APSS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:51:06,313 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSApplicationModule, APSS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:51:06,314 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSDataModule, APSS.Infrastructure.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:51:06,315 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSWebApiModule, APSS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:51:06,315 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.Web.APSSWebModule, APSS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 22:51:06,642 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-08-31 23:04:28,617 [22   ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-08-31 23:04:28,991 [22   ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:04:28,992 [22   ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:04:28,993 [22   ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.EntityFramework.AbpEntityFrameworkModule, Abp.Infrastructure.EntityFramework, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:04:28,999 [22   ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Web.AbpWebModule, Abp.Web, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:04:28,999 [22   ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:04:29,001 [22   ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:04:29,006 [22   ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSCoreModule, APSS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:04:29,007 [22   ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSApplicationModule, APSS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:04:29,007 [22   ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSDataModule, APSS.Infrastructure.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:04:29,008 [22   ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSWebApiModule, APSS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:04:29,008 [22   ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.Web.APSSWebModule, APSS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:04:29,342 [22   ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-08-31 23:31:08,744 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-08-31 23:31:08,788 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:08,789 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:08,790 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.EntityFramework.AbpEntityFrameworkModule, Abp.Infrastructure.EntityFramework, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:08,796 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Web.AbpWebModule, Abp.Web, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:08,796 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:08,798 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:08,802 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSCoreModule, APSS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:08,802 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSApplicationModule, APSS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:08,803 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSDataModule, APSS.Infrastructure.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:08,804 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSWebApiModule, APSS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:08,804 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.Web.APSSWebModule, APSS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:09,128 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-08-31 23:31:39,534 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-08-31 23:31:39,579 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:39,580 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:39,581 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.EntityFramework.AbpEntityFrameworkModule, Abp.Infrastructure.EntityFramework, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:39,587 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Web.AbpWebModule, Abp.Web, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:39,587 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:39,589 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:39,594 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSCoreModule, APSS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:39,594 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSApplicationModule, APSS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:39,595 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSDataModule, APSS.Infrastructure.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:39,596 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSWebApiModule, APSS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:39,596 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.Web.APSSWebModule, APSS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:31:39,925 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-08-31 23:32:51,115 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-08-31 23:32:51,525 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:32:51,526 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:32:51,528 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.EntityFramework.AbpEntityFrameworkModule, Abp.Infrastructure.EntityFramework, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:32:51,533 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Web.AbpWebModule, Abp.Web, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:32:51,533 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:32:51,535 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:32:51,540 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSCoreModule, APSS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:32:51,540 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSApplicationModule, APSS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:32:51,541 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSDataModule, APSS.Infrastructure.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:32:51,542 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSWebApiModule, APSS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:32:51,542 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.Web.APSSWebModule, APSS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-08-31 23:32:51,870 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-01 08:48:58,071 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-01 08:48:58,498 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 08:48:58,499 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 08:48:58,501 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.EntityFramework.AbpEntityFrameworkModule, Abp.Infrastructure.EntityFramework, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 08:48:58,506 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Web.AbpWebModule, Abp.Web, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 08:48:58,506 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 08:48:58,509 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 08:48:58,514 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSCoreModule, APSS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 08:48:58,514 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSApplicationModule, APSS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 08:48:58,514 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSDataModule, APSS.Infrastructure.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 08:48:58,515 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSWebApiModule, APSS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 08:48:58,515 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.Web.APSSWebModule, APSS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 08:48:58,844 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-01 09:44:28,514 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-01 09:44:28,924 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 09:44:28,925 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 09:44:28,926 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.EntityFramework.AbpEntityFrameworkModule, Abp.Infrastructure.EntityFramework, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 09:44:28,932 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Web.AbpWebModule, Abp.Web, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 09:44:28,932 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 09:44:28,934 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.1.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 09:44:28,939 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSCoreModule, APSS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 09:44:28,939 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSApplicationModule, APSS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 09:44:28,940 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSDataModule, APSS.Infrastructure.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 09:44:28,941 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.APSSWebApiModule, APSS.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 09:44:28,941 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: APSS.Web.APSSWebModule, APSS.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-01 09:44:29,272 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.

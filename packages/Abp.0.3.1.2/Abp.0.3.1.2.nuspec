@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Abp</id>
+    <version>0.3.1.2</version>
+    <title>Abp</title>
+    <authors>Halil İbrahim Kalkan</authors>
+    <owners>Halil İbrahim Kalkan</owners>
+    <projectUrl>http://www.aspnetboilerplate.com/</projectUrl>
+    <iconUrl>http://www.aspnetboilerplate.com/images/abp_nupkg.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ASP.NET Boilerplate</description>
+    <tags>asp.net boilerplate mvc application web framework domain driven design dependency injection</tags>
+    <dependencies>
+      <dependency id="Castle.LoggingFacility" version="3.3.0" />
+      <dependency id="Microsoft.Bcl.Immutable" version="1.0.34" />
+    </dependencies>
+  </metadata>
+</package>

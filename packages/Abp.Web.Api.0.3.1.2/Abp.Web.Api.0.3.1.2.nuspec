@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Abp.Web.Api</id>
+    <version>0.3.1.2</version>
+    <title>Abp.Web.Api</title>
+    <authors>Halil İbrahim Kalkan</authors>
+    <owners>Halil İbrahim Kalkan</owners>
+    <projectUrl>http://www.aspnetboilerplate.com/</projectUrl>
+    <iconUrl>http://www.aspnetboilerplate.com/images/abp_nupkg.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ASP.NET Boilerplate - Web API Layer</description>
+    <tags>asp.net boilerplate mvc application web framework domain driven design dependency injection</tags>
+    <dependencies>
+      <dependency id="AutoMapper" version="3.2.1" />
+      <dependency id="Castle.LoggingFacility" version="3.3.0" />
+      <dependency id="Microsoft.AspNet.WebApi" version="5.2.0" />
+      <dependency id="Microsoft.Bcl.Immutable" version="1.0.34" />
+      <dependency id="Abp.Application" version="0.3.1.2" />
+      <dependency id="Abp.Web" version="0.3.1.2" />
+      <dependency id="Abp" version="0.3.1.2" />
+    </dependencies>
+  </metadata>
+</package>
